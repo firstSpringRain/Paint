@@ -1,0 +1,92 @@
+.painting {
+    display: flex;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 30px;
+    margin-bottom: 30px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.light-green {
+    background-color: greenyellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.light-blue {
+    background-color: aquamarine;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.selected {
+    border: 1px solid grey;
+}
+
+.clear {
+    margin-left: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.pixels {
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    border: solid 2px rgb(221, 221, 221);
+    width: 1100px;
+    height: 500px;
+}
+
+.pixel {
+    border: solid 1px rgb(241, 241, 241);
+}
